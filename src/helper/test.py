@@ -14,7 +14,7 @@ load_dotenv()
 token=os.getenv("HUGGINGFACEHUB_API_KEY")
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = token
 
-def process_documents(uploaded_files, save_path="./files/", persist_directory='./db/'):
+def process_documents(uploaded_files, save_path="./files/", persist_directory=None):
     Path(save_path).mkdir(parents=True, exist_ok=True)
 
     for uploaded_file in uploaded_files:
