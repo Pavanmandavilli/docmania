@@ -11,3 +11,6 @@
  python-dotenv
  streamlit-extras
  streamlit-navigation-bar
+ pymilvus
+ google-generativeai
+ 
