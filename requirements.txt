@@ -1,16 +1,9 @@
- langchain
- huggingface_hub
- tiktoken
- chromadb
- pypdf
- sentence_transformers
- InstructorEmbedding
- langchain-community
- langchain-huggingface
- streamlit
- python-dotenv
- streamlit-extras
- streamlit-navigation-bar
- pymilvus
- google-generativeai
- langchain_milvus 
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-text-splitters==0.2.2
+langchain-milvus
+pymilvus
+google-generativeai
+streamlit
+python-dotenv
+pypdf
