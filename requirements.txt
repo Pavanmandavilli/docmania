@@ -13,4 +13,4 @@
  streamlit-navigation-bar
  pymilvus
  google-generativeai
- 
+ langchain_milvus 
