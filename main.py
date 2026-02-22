@@ -11,10 +11,10 @@ from langchain.document_loaders import PyPDFLoader
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MILVUS_URI = os.getenv("MILVUS_URI")
-MILVUS_TOKEN = os.getenv("MILVUS_TOKEN")
-MILVUS_COLLECTION = os.getenv("MILVUS_COLLECTION")
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+MILVUS_URI = st.secrets["MILVUS_URI"]
+MILVUS_TOKEN = st.secrets["MILVUS_TOKEN"]
+MILVUS_COLLECTION = st.secrets["MILVUS_COLLECTION"]
 
 if not GEMINI_API_KEY:
     st.error("GEMINI_API_KEY not found in .env")
